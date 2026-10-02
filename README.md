@@ -1,23 +1,11 @@
-# Smart Tool Windows
+# Smart Tool User Releases
 
-Kho nay chi chua ban phat hanh Windows va huong dan cap nhat. Ma nguon va du lieu tai khoan khong duoc dang len day.
+Public Windows releases of Smart Tool with login and license.
 
-## Chon ban
+- Download the `SmartTool-login` ZIP from Releases, extract the entire archive, and open `smart_tool_login.exe`.
+- From user version 1.2.1 onward, enable automatic updates or click the update button in the tool. GitHub login is not required.
+- For older user installations, download `Nang-cap-SmartTool.cmd` and `Nang-cap-SmartTool.ps1`, keep them together, close the tool/browser, then run CMD and select the old installation. Existing configuration is preserved.
 
-- **login**: co dang nhap va license.
-- **unified**: chay truc tiep, khong qua man hinh dang nhap.
+Standalone/local builds are distributed separately through the owner's private `smart-tool-local-releases` repository. They are not published here.
 
-Tai goi ZIP tu [Releases](https://github.com/Sangdepzai9x/smart-tool-releases/releases/latest). Khong tai cac goi Source code ZIP/TAR tu GitHub de cai ung dung.
-
-## Nang cap ban cu lan dau
-
-1. Dong Smart Tool cu va cac browser do tool mo.
-2. Tai **Nang-cap-SmartTool.cmd** va **Nang-cap-SmartTool.ps1** trong release, dat cung thu muc.
-3. Chay file CMD, chon thu muc chua EXE ban cu. Script tu tai dung loai, kiem tra chu ky/checksum, nang cap va mo lai tool.
-4. Giu nguyen du lieu cu; khong can copy cac bang cau hinh sang thu muc moi.
-
-Tu ban 1.2.1, tool co nut **Cap nhat tool** va tuy chon **Tu cap nhat**. Tool tai ban moi o nen, cho Monitor/Edit/Upload va cac tac vu kiem tra ket thuc, roi cai va khoi dong lai.
-
-Du lieu cau hinh duoc luu tai `%LOCALAPPDATA%\SmartUnifiedTool`. Ban truoc duoc giu trong thu muc `.smart-update-backup-...` canh thu muc cai. Neu mat dien giua cap nhat, chay `Recover-update.cmd` trong `%LOCALAPPDATA%\SmartUnifiedTool\updates\<ma cap nhat>` truoc khi mo lai tool.
-
-Cac ban cu chua co updater can nang cap mot lan bang script tren. Sua source khong tu tao release: can build, kiem tra goi sach va ky manifest truoc khi dang ban moi.
+This repository contains only this README and release assets. GitHub Source code archives contain the README, not the application source. Application source, credentials, browser profiles and user data are not published.
